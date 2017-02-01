@@ -1,0 +1,71 @@
+ body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+  
+  #bookImg {
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  #genres_icon{
+    float: right;
+  }
+  
+ .headings{
+   padding-left: 20px;
+ }
+  
+  #bagColor{
+    background-color: honeydew;
+    float: left;
+  }
+  
+  .bgimg{
+    background-image: url('/Images/banner.jpg');
+  }
+  
+  footer.page-footer{
+    margin-top:0px;
+  }
+  
+  .row .col{
+    /*padding: 0px;*/
+    border:0px;
+  }
+  
+  #user{
+    width: 50px;
+    height: 50px;
+  }
+  h3{
+    display: inline-block;
+  }
+ 
+  label {
+    font-size: 20px;
+    color:teal;
+}
+.container .row {
+    margin-left: 0.25rem;
+    margin-right: -0.75rem;
+}
+
+.container{
+  margin: 0px;
+}
+
+.people{
+    margin-top: 5px !important;
+    margin-bottom:5px !important;
+}
+
+.collection{
+    border: 0px;
+}
